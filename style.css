@@ -1,0 +1,132 @@
+.nav{
+    display: flex;
+    justify-content:space-around;
+    /* background-color:blue; */
+    background-image: url(photos/bacground.jpg);
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+.box1{
+    display: flex;
+    margin-top: 10px;
+}
+
+.box2{
+    display: flex;
+    margin: 10px;
+    
+}
+li{
+    list-style-type:none;
+    margin: 10px;
+}
+
+.search{
+    margin: 10px;
+    
+}
+
+.profile{
+    margin: 10px;
+}
+
+.logo{
+    background-color: rgb(227, 37, 173);
+    height: 30px;
+    width:30px;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    margin-top: 6px;
+    margin: 6px;
+}
+
+.cinema{
+    position: relative;
+    bottom: 24px;
+
+}
+
+.search{
+    height: 40px;
+    border-radius:16px;
+    
+}
+
+#button{
+    background-color: rgba(84, 229, 212, 0.831);
+    height: 40px;
+    width: 40px;
+    border-radius: 18px;
+}
+
+#profile{
+    font-size: 50px;
+    color: rgba(0, 255, 255, 0.761);
+    
+}
+
+.container{
+    display: flex;
+    margin-top: 20px;
+    background-image: url(photos/bacground.jpg);
+    background-size: cover;
+
+}
+
+.image{
+    margin: 30px;
+    width: 260px;
+
+}
+
+
+
+.result {
+    display: flex;            
+    flex-wrap: wrap;            
+    gap: 16px;                
+    justify-content: center;    
+    padding: 16px;              
+}
+
+.show {
+    display: flex;              
+    flex-direction: column;     
+    align-items: center;        
+    width: 200px;               
+    padding: 16px;              
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+    border-radius: 8px;         
+    background-color: #fff;    
+}
+
+
+/* Style for the genres and premiered date */
+.show p {
+    margin: 4px 0;
+    text-align: center;
+}
+
+
+body{
+    background-image: url(movie.jpg);
+    background-size: cover;
+}
+
+#button{
+    background-color: white;
+    border: 2px solid rgb(179, 71, 156);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#movie{
+    border: 3px solid rgba(36, 174, 177, 0.708);
+}
